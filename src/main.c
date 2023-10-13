@@ -141,7 +141,7 @@ void tests() {
 	free(board);
 }
 
-
+#if 0
 int score(Board *board, const int turn) {
 	/* if x is winner  */
 	return 100;
@@ -152,6 +152,7 @@ int minimax(Board *board) {
 	/* Returnt the best move */
 	return 1;
 }
+#endif
 
 
 int main(int argc, char **argv) {
