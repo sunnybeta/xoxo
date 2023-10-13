@@ -1,0 +1,8 @@
+# Objects
+*.o
+
+# Binary
+bin/
+
+# Todo
+todo.md
