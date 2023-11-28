@@ -1,6 +1,6 @@
-CC=cc
-CFLAGS=-ggdb -Wall -Werror -Wextra -pedantic -ansi -std=c89
-LDFLAGS= 
+CC = cc
+CFLAGS  = -ggdb -Wall -Werror -Wextra -pedantic -ansi -std=c89
+LDFLAGS = 
 
 SRC = $(wildcard src/*.c)
 OBJ = $(SRC:.c=.o)
